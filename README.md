@@ -3,9 +3,9 @@ A simple script to transform the ".loci" file obtained with iPyrad (https://gith
 
 # Usage
 chmod u+x ipyrad2bpp.sh
-./ipyrad2bpp.sh <input_file>
+"./ipyrad2bpp.sh <input_file>"
 chmod u+x ipyrad2bpp.sh
-./select_loci.sh <input_file> <num_loci> <output_file>
+"./select_loci.sh <input_file> <num_loci> <output_file>"
 
 # Examples 
 
