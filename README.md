@@ -1,6 +1,6 @@
 # ipyrad2bpp
 
-A simple script to transform the `.loci` file obtained with [iPyrad](https://github.com/dereneaton/ipyrad) into the format required to run [BPP](https://github.com/bpp/bpp). BPP is computationally highly demanding, so you might want to run it using only a subset of loci from your dataset. To this end, I have created a second script that allows you to automatically obtain an input file for BPP including only a specific number of loci (e.g., 1000 loci).
+A simple script to transform `.loci` files obtained with [iPyrad](https://github.com/dereneaton/ipyrad) into the format required to run [BPP](https://github.com/bpp/bpp). BPP is computationally highly demanding, so you might want to run it using only a subset of loci from your dataset. To this end, I have created a second script that allows you to automatically obtain an input file for BPP including only a specific number of loci (e.g., 1000 loci).
 
 ## Usage and examples
 
