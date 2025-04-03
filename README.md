@@ -6,7 +6,7 @@ A simple script to transform `.loci` files obtained with [iPyrad](https://github
 
 ### Step 1: Convert `.loci` file to BPP format
 
-Run the script `ipyrad2bpp.sh`, using as input the `.loci` file obtained after running step 7 in iPyrad. You must also include in the same folder a file named `samples_map.txt`, which indicates the correspondence between the sample names in the `.loci` file (e.g., `sample01`, `sample02`, etc.; first column in `samples_map.txt` file) and the format required by BPP (i.e., sample names followed by a tag after `^`; e.g., `sample01^1`, `sample02^2`, etc.; second column in `samples_map.txt`). See the provided `samples_map.txt` for an example.
+Run the script `ipyrad2bpp.sh`, using as input the `.loci` file obtained after running step 7 in iPyrad. You must also include in the same folder a file named `samples_map.txt`, which indicates the correspondence between the sample names in the `.loci` file (e.g., `sample01`, `sample02`, etc.; first column in `samples_map.txt` file) and the format required by BPP to name the samples (i.e., sample names followed by a tag after `^`; e.g., `sample01^1`, `sample02^2`, etc.; second column in `samples_map.txt`). See the provided `samples_map.txt` for an example.
 
 #### Command:
 
